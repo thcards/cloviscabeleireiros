@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria — Clóvis Cabeleireiros | Caxias do Sul</title>
+  <meta name="description" content="Galeria de fotos do Clóvis Cabeleireiros: cortes, penteados, maquiagens, mechas e unhas. Veja nossos trabalhos em Caxias do Sul.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Toggle Modo Noturno/Diurno -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo noturno/diurno">
+    <i class="fas fa-moon icon-moon"></i>
+    <i class="fas fa-sun icon-sun"></i>
+  </button>
+
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="assets/img/logoc.jpg" alt="Clóvis Cabeleireiros">
+        Clóvis Cabeleireiros
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li><a href="galeria.html" class="nav-link active">Galeria</a></li>
+          <li><a href="agendamento.html" class="nav-link">Agendamento</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <h1 class="reveal">Nossa <span style="color: var(--dourado); font-style: italic;">Galeria</span></h1>
+    <p class="reveal delay-1">Veja nossos trabalhos realizados no Clóvis Cabeleireiros em Caxias do Sul</p>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="galeria section-padding">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-divider"></div>
+        <h2>Nossos <span class="destaque">Trabalhos</span></h2>
+        <p class="section-subtitle mx-auto">Cada resultado é único, feito com dedicação e talento para realçar sua beleza.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="categoria-filtros reveal">
+        <button class="categoria-btn active" data-categoria="todos">Todos</button>
+        <button class="categoria-btn" data-categoria="equipe">Equipe</button>
+        <button class="categoria-btn" data-categoria="trabalhos">Trabalhos</button>
+      </div>
+
+      <!-- Grid de Fotos -->
+      <div class="galeria-grid">
+        <div class="galeria-item" data-categoria="equipe">
+          <img src="assets/img/clovis.avif" alt="Clóvis Cabeleireiros - Caxias do Sul" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-user"></i> Clóvis</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="equipe">
+          <img src="assets/img/rose.avif" alt="Rose - Equipe Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-user"></i> Rose</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo1.jpg" alt="Trabalho 1 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 1</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo2.jpg" alt="Trabalho 2 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 2</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo3.jpg" alt="Trabalho 3 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 3</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo4.jpg" alt="Trabalho 4 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 4</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo5.jpg" alt="Trabalho 5 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 5</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo6.jpg" alt="Trabalho 6 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 6</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo7.jpg" alt="Trabalho 7 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 7</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo8.avif" alt="Trabalho 8 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 8</span></div>
+        </div>
+
+        <div class="galeria-item" data-categoria="trabalhos">
+          <img src="assets/img/exemplo9.png" alt="Trabalho 9 - Clóvis Cabeleireiros" loading="lazy">
+          <div class="galeria-item-overlay"><span><i class="fas fa-star"></i> Exemplo 9</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Fechar lightbox">
+      <i class="fas fa-times"></i>
+    </button>
+    <img id="lightbox-img" src="" alt="Foto ampliada">
+  </div>
+
+  <!-- CTA -->
+  <section class="sobre section-padding" style="padding: 80px 0;">
+    <div class="container text-center">
+      <div class="section-divider" style="margin: 0 auto 1.5rem;"></div>
+      <h2 class="reveal" style="color: #fff;">Quer um resultado <span class="destaque">incrível</span> também?</h2>
+      <p class="reveal delay-1" style="color: rgba(255,255,255,0.6); max-width: 500px; margin: 1rem auto 2rem; font-weight: 300;">Agende seu horário e venha transformar seu visual conosco!</p>
+      <a href="agendamento.html" class="btn btn-dourado reveal delay-2">
+        <i class="fas fa-calendar-check"></i> Agende seu Horário
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Clóvis Cabeleireiros</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Rua Bento Gonçalves, nº 2031, Sala 02</p>
+          <p><i class="fas fa-city"></i> Centro, Caxias do Sul - RS</p>
+          <p><i class="fas fa-phone-alt"></i> <a href="tel:555432236359">(54) 3223-6359</a></p>
+          <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5554981417859" target="_blank">(54) 98141-7859</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:cloviscabeleireiros@gmail.com">cloviscabeleireiros@gmail.com</a></p>
+          <div class="footer-social">
+            <a href="https://instagram.com/cloviscabeleireiros" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/cloviscabeleireiros" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/555432236359" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Horários</h3>
+          <ul class="footer-horario">
+            <li><span>Segunda a Sexta</span><span>08h — 20h</span></li>
+            <li><span>Sábado</span><span>08h — 20h</span></li>
+            <li><span>Domingo</span><span>Fechado</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Links</h3>
+          <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+          <a href="servicos.html"><i class="fas fa-chevron-right"></i> Serviços</a>
+          <a href="galeria.html"><i class="fas fa-chevron-right"></i> Galeria</a>
+          <a href="agendamento.html"><i class="fas fa-chevron-right"></i> Agendamento</a>
+          <a href="contato.html"><i class="fas fa-chevron-right"></i> Contato</a>
+        </div>
+        <div class="footer-col">
+          <h3>Agende Agora</h3>
+          <p>Transforme sua beleza com quem entende do assunto. Agende seu horário e venha nos conhecer!</p>
+          <a href="agendamento.html" class="btn btn-dourado btn-sm" style="margin-top: 15px;">
+            <i class="fas fa-calendar-check"></i> Agendar
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Clóvis Cabeleireiros. Todos os direitos reservados. | Caxias do Sul - RS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/servicos-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/galeria.js"></script>
+</body>
+</html>
