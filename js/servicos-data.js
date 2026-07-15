@@ -22,7 +22,7 @@ const servicos = [
     categoria: 'Cabelo',
     descricao: 'Tratamento intensivo com máscaras profissionalizantes para devolver brilho, maciez e vitalidade aos cabelos.',
     duracao: '40 min',
-    preco: 'R$ 65,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'hidratacao-capilar'
   },
   {
@@ -31,7 +31,7 @@ const servicos = [
     categoria: 'Cabelo',
     descricao: 'Tratamento à base de queratina e aminoácidos para cabelos danificados, devolvendo força e resistência.',
     duracao: '50 min',
-    preco: 'R$ 85,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'reconstrucao-capilar'
   },
   {
@@ -40,7 +40,7 @@ const servicos = [
     categoria: 'Cabelo',
     descricao: 'Tratamento hidro-nutritivo com óleos vegetais e vitaminas para cabelos secos e sem vida.',
     duracao: '45 min',
-    preco: 'R$ 75,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'nutricao-capilar'
   },
   {
@@ -49,7 +49,7 @@ const servicos = [
     categoria: 'Cabelo',
     descricao: 'Tratamento reparador que reduz o volume, elimina o frizz e restaura a fibra capilar com resultados impressionantes.',
     duracao: '1h',
-    preco: 'R$ 120,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'botox-capilar'
   },
 
@@ -60,7 +60,7 @@ const servicos = [
     categoria: 'Corte',
     descricao: 'Corte moderno e personalizado com tesoura e máquina, incluindo finalização.',
     duracao: '30 min',
-    preco: 'R$ 55,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'corte-masculino'
   },
   {
@@ -69,7 +69,7 @@ const servicos = [
     categoria: 'Corte',
     descricao: 'Corte personalizado com análise de formato de rosto e textura do cabelo, incluindo lavagem e finalização.',
     duracao: '45 min',
-    preco: 'R$ 75,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'corte-feminino'
   },
   {
@@ -78,7 +78,7 @@ const servicos = [
     categoria: 'Corte',
     descricao: 'Corte lúdico e divertido para crianças, com paciência e carinho da nossa equipe.',
     duracao: '30 min',
-    preco: 'R$ 45,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'corte-infantil'
   },
 
@@ -89,7 +89,7 @@ const servicos = [
     categoria: 'Penteado',
     descricao: 'Produção completa para noivas incluindo prova de penteado, teste de maquiagem e atendimento personalizado.',
     duracao: '2h',
-    preco: 'R$ 250,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'penteados-noivas'
   },
   {
@@ -98,7 +98,7 @@ const servicos = [
     categoria: 'Penteado',
     descricao: 'Penteados modernos e elegantes para debutantes, com direito a teste e prova.',
     duracao: '1h30',
-    preco: 'R$ 180,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'penteados-debutantes'
   },
   {
@@ -107,7 +107,7 @@ const servicos = [
     categoria: 'Penteado',
     descricao: 'Penteados sofisticados para formaturas e eventos especiais.',
     duracao: '1h',
-    preco: 'R$ 150,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'penteados-formaturas'
   },
   {
@@ -116,7 +116,7 @@ const servicos = [
     categoria: 'Penteado',
     descricao: 'Penteados para festas, casamentos (convidados) e eventos em geral.',
     duracao: '40 min',
-    preco: 'R$ 90,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'penteados-sociais'
   },
 
@@ -127,7 +127,7 @@ const servicos = [
     categoria: 'Mechas',
     descricao: 'Técnica de descoloração com papel alumínio para clarear mechas finas ou grossas, conforme seu estilo.',
     duracao: '2h',
-    preco: 'R$ 180,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'mechas-luzes'
   },
   {
@@ -136,7 +136,7 @@ const servicos = [
     categoria: 'Mechas',
     descricao: 'Efeito degradê natural que clareia as pontas mantendo a raiz escura, com aspecto moderno e sofisticado.',
     duracao: '2h30',
-    preco: 'R$ 220,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'ombre-hair'
   },
   {
@@ -145,7 +145,7 @@ const servicos = [
     categoria: 'Mechas',
     descricao: 'Técnica francesa de mechas à mão livre, com efeito iluminado e natural.',
     duracao: '2h30',
-    preco: 'R$ 250,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'mechas-balayage'
   },
   {
@@ -154,7 +154,7 @@ const servicos = [
     categoria: 'Mechas',
     descricao: 'Coloração com tintas profissionais de alta qualidade, cobertura total de brancos.',
     duracao: '1h30',
-    preco: 'R$ 130,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'coloracao'
   },
 
@@ -165,7 +165,7 @@ const servicos = [
     categoria: 'Maquiagem',
     descricao: 'Maquiagem profissional para noivas com teste, duração prolongada e acabamento impecável para fotos.',
     duracao: '1h30',
-    preco: 'R$ 280,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'maquiagem-noivas'
   },
   {
@@ -174,7 +174,7 @@ const servicos = [
     categoria: 'Maquiagem',
     descricao: 'Maquiagem para festas, formaturas, debutantes e eventos sociais em geral.',
     duracao: '1h',
-    preco: 'R$ 150,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'maquiagem-social'
   },
   {
@@ -183,7 +183,7 @@ const servicos = [
     categoria: 'Maquiagem',
     descricao: 'Maquiagem leve e natural para o dia a dia, realçando sua beleza sem exageros.',
     duracao: '40 min',
-    preco: 'R$ 80,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'maquiagem-dia'
   },
 
@@ -194,7 +194,7 @@ const servicos = [
     categoria: 'Manicure',
     descricao: 'Corte, lixamento, remoção de cutículas e esmaltação das unhas das mãos.',
     duracao: '40 min',
-    preco: 'R$ 45,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'manicure-tradicional'
   },
   {
@@ -203,7 +203,7 @@ const servicos = [
     categoria: 'Manicure',
     descricao: 'Alongamento ou blindagem das unhas com gel, incluindo aplicação de esmalte em gel.',
     duracao: '1h30',
-    preco: 'R$ 120,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'manicure-gel'
   },
   {
@@ -212,7 +212,7 @@ const servicos = [
     categoria: 'Manicure',
     descricao: 'Alongamento e reforço com fibra de vidro, resultado natural e resistente.',
     duracao: '2h',
-    preco: 'R$ 150,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'manicure-fibra'
   },
 
@@ -223,7 +223,7 @@ const servicos = [
     categoria: 'Pedicure',
     descricao: 'Corte, lixamento, remoção de cutículas e esmaltação dos pés, com hidratação.',
     duracao: '40 min',
-    preco: 'R$ 50,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'pedicure-tradicional'
   },
   {
@@ -232,7 +232,7 @@ const servicos = [
     categoria: 'Pedicure',
     descricao: 'Pedicure tradicional + esfoliação, hidratação intensiva e massagem relaxante nos pés.',
     duracao: '1h',
-    preco: 'R$ 80,00',
+    preco: 'Consulte pelo whattsapp',
     slug: 'pedicure-completa'
   }
 ];
