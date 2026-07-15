@@ -197,24 +197,6 @@ const servicos = [
     preco: 'Consulte pelo whattsapp',
     slug: 'manicure-tradicional'
   },
-  {
-    id: 'manicure-gel',
-    nome: 'Unhas em Gel',
-    categoria: 'Manicure',
-    descricao: 'Alongamento ou blindagem das unhas com gel, incluindo aplicação de esmalte em gel.',
-    duracao: '1h30',
-    preco: 'Consulte pelo whattsapp',
-    slug: 'manicure-gel'
-  },
-  {
-    id: 'manicure-fibra',
-    nome: 'Unhas de Fibra de Vidro',
-    categoria: 'Manicure',
-    descricao: 'Alongamento e reforço com fibra de vidro, resultado natural e resistente.',
-    duracao: '2h',
-    preco: 'Consulte pelo whattsapp',
-    slug: 'manicure-fibra'
-  },
 
   // === PEDICURE ===
   {
